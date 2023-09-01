@@ -1,0 +1,22 @@
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+}
+
+.carousel-wrapper {
+    display: inline-flex;
+    scroll-behavior: smooth;
+}
+
+.carousel-slide {
+    width: 100%;
+    scroll-snap-align: start;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.carousel-content {
+    /* Additional content styling */
+}
