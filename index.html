@@ -14,11 +14,11 @@
     <script src="https://kit.fontawesome.com/e89d4697c7.js" crossorigin="anonymous"></script>
     <script src="my-custom-script.js"></script>
 
-    <!-- Custom CSS link -->
-    <link rel="stylesheet" href="custom-css.css">
-
     <!--carousel-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="custom-css.css">
 </head>
 
 <body>
@@ -246,7 +246,8 @@
                             <h5 class="text-xl md:text-3xl font-serif font-semibold pb-1 pt-4 md:pt-6">Cristiano Ronaldo
                             </h5>
                             <p class="pb-2 md:pb-8 text-sm md:text-base">Footballer</p>
-                            <p class="text-[#F3F3F3] text-xs md:text-base pb-4">Contrary to popular belief, Lorem Ipsum is
+                            <p class="text-[#F3F3F3] text-xs md:text-base pb-4">Contrary to popular belief, Lorem Ipsum
+                                is
                                 not simply random text. It has roots in a piece of classical Latin literature from 45
                                 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
                                 Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
@@ -256,17 +257,19 @@
 
                     <!-- Item 2 -->
                     <div class="hidden md:block" data-carousel-item>
-                        <img src="images/slider-2.jpg"
-                            class="absolute w-full h-full object-cover inset-0" alt="...">
+                        <img src="images/slider-2.jpg" class="absolute w-full h-full object-cover inset-0" alt="...">
                         <div
                             class="absolute inset-x-4 md:inset-x-[15%] bottom-4 md:bottom-20 py-4 md:py-0 text-center text-white">
                             <div class="flex items-center justify-center">
-                                <img class="h-12 w-12 md:h-16 md:w-16 bg-slate-300 rounded-full border-4" src="images/ae.png" alt="">
+                                <img class="h-12 w-12 md:h-16 md:w-16 bg-slate-300 rounded-full border-4"
+                                    src="images/ae.png" alt="">
                             </div>
 
-                            <h5 class="text-xl md:text-3xl font-serif font-semibold pb-1 pt-4 md:pt-6">Albert Einstein</h5>
+                            <h5 class="text-xl md:text-3xl font-serif font-semibold pb-1 pt-4 md:pt-6">Albert Einstein
+                            </h5>
                             <p class="pb-2 md:pb-8 text-sm md:text-base">Scientist</p>
-                            <p class="text-[#F3F3F3] text-xs md:text-base pb-4">Contrary to popular belief, Lorem Ipsum is not simply random
+                            <p class="text-[#F3F3F3] text-xs md:text-base pb-4">Contrary to popular belief, Lorem Ipsum
+                                is not simply random
                                 text. It
                                 has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
                                 old. Richard
@@ -277,17 +280,19 @@
                     </div>
                     <!-- Item 3 -->
                     <div class="hidden md:block" data-carousel-item>
-                        <img src="images/slider-3.jpg"
-                            class="absolute w-full h-full object-cover inset-0" alt="...">
+                        <img src="images/slider-3.jpg" class="absolute w-full h-full object-cover inset-0" alt="...">
                         <div
                             class="absolute inset-x-4 md:inset-x-[15%] bottom-4 md:bottom-20 py-4 md:py-0 text-center text-white">
                             <div class="flex items-center justify-center">
-                                <img class="h-12 w-12 md:h-16 md:w-16 bg-slate-300 rounded-full border-4" src="images/jm.png" alt="">
+                                <img class="h-12 w-12 md:h-16 md:w-16 bg-slate-300 rounded-full border-4"
+                                    src="images/jm.png" alt="">
                             </div>
 
-                            <h5 class="text-xl md:text-3xl font-serif font-semibold pb-1 pt-4 md:pt-6">Jhankar Mahbub</h5>
+                            <h5 class="text-xl md:text-3xl font-serif font-semibold pb-1 pt-4 md:pt-6">Jhankar Mahbub
+                            </h5>
                             <p class="pb-2 md:pb-8 text-sm md:text-base">Engineer</p>
-                            <p class="text-[#F3F3F3] text-xs md:text-base pb-4">Contrary to popular belief, Lorem Ipsum is not simply random
+                            <p class="text-[#F3F3F3] text-xs md:text-base pb-4">Contrary to popular belief, Lorem Ipsum
+                                is not simply random
                                 text. It
                                 has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
                                 old. Richard
@@ -339,14 +344,102 @@
         </section>
 
         <!-- FAQ section -->
-        <!-- <section class="container mx-auto">
-            <div class="text-center mt-14 md:mt-28 space-y-6 mb-16">
+        <section class="container mx-auto">
+            <div class="text-center mt-14 md:mt-28 space-y-6 mb-8 md:mb-16">
                 <h3 class="text-[#414040] text-4xl font-semibold font-serif">Frequently Asked Any Questions</h3>
                 <p class="text-[#707070] md:px-80">There are many variations of passages of Lorem Ipsum available, but
                     the majority have suffered alteration in some form, by injected humour.</p>
             </div>
 
-        </section> -->
+            <!-- Accordion section -->
+            <div class="md:flex gap-8 px-2">
+                <div class="md:w-1/2">
+                    <div id="accordion-flush" data-accordion="collapse"
+                        data-active-classes="bg-[#F3F3F3] dark:bg-[#F3F3F3] text-[#414040] dark:text-blue-500 px-8 pt-8"
+                        data-inactive-classes="p-4 bg-[#F3F3F3]">
+                        <h2 id="accordion-flush-heading-1">
+                            <button type="button"
+                                class="flex items-center justify-between w-full font-serif font-extrabold text-2xl text-left bg-[#F3F3F3]"
+                                data-accordion-target="#accordion-flush-body-1" aria-expanded="true"
+                                aria-controls="accordion-flush-body-1">
+                                <span>1. Difference between flex box and grid?</span>
+                                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M9 5 5 1 1 5" />
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-1" class="hidden bg-[#F3F3F3] px-8 pb-8 mb-5" aria-labelledby="accordion-flush-heading-1">
+                            <div class="pt-4">
+                                <p class="text-[#707070] dark:text-gray-400">Flexbox was designed for layout in one
+                                    dimension - either a row or a column. Grid was designed for two-dimensional layout -
+                                    rows, and columns at the same time.</p>
+                            </div>
+                        </div>
+                        <h2 id="accordion-flush-heading-2">
+                            <button type="button"
+                                class="flex items-center justify-between w-full font-serif font-extrabold text-2xl text-left pt-8 mt-5"
+                                data-accordion-target="#accordion-flush-body-2" aria-expanded="false"
+                                aria-controls="accordion-flush-body-2">
+                                <span>2. What is the purpose of media query?</span>
+                                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M9 5 5 1 1 5" />
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-2" class="hidden bg-[#F3F3F3] px-8 pb-8" aria-labelledby="accordion-flush-heading-2">
+                            <div class="pt-4">
+                                <p class="text-[#707070] dark:text-gray-400">Media queries are a key part of responsive web design, as they allow you to create different layouts depending on the size of the viewport, but they can also be used to detect other things about the environment your site is running on.</p>
+                            </div>
+                        </div>
+                        <h2 id="accordion-flush-heading-3">
+                            <button type="button"
+                                class="flex items-center justify-between w-full font-serif font-extrabold text-2xl text-left pt-8 mt-5"
+                                data-accordion-target="#accordion-flush-body-3" aria-expanded="false"
+                                aria-controls="accordion-flush-body-3">
+                                <span>3. What is CSS box model and how does it work?</span>
+                                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M9 5 5 1 1 5" />
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-3" class="hidden bg-[#F3F3F3] px-8 pb-8" aria-labelledby="accordion-flush-heading-3">
+                            <div class="pt-4">
+                                <p class="text-[#707070] dark:text-gray-400">The CSS Box Model is used to create a definition for the way the HTML elements are organized on the screen.</p>
+                            </div>
+                        </div>
+                        <h2 id="accordion-flush-heading-4">
+                            <button type="button"
+                                class="flex items-center justify-between w-full font-serif font-extrabold text-2xl text-left pt-8 mt-5"
+                                data-accordion-target="#accordion-flush-body-4" aria-expanded="false"
+                                aria-controls="accordion-flush-body-4">
+                                <span>4. What is semantic tag?</span>
+                                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M9 5 5 1 1 5" />
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="accordion-flush-body-4" class="hidden bg-[#F3F3F3] px-8 pb-8" aria-labelledby="accordion-flush-heading-4">
+                            <div class="pt-4">
+                                <p class="text-[#707070] dark:text-gray-400">Semantic HTML tags are tags that define the meaning of the content they contain.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div>
+                        <img class="items-end" src="images/faq.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
